@@ -1,0 +1,47 @@
+@page "/Admin"
+
+@using PetitionAdminApp.Models
+@using PetitionAdminApp.Components
+
+@inject HttpClient Http
+
+<h2 style="text-align: center">Petitions</h2>
+
+
+
+<div class="container my-3 py-3" style="overflow-y: auto; height: calc(100vh - 150px); border: 4px solid grey; border-radius: 10px">
+    @if (Petitions == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        foreach (var item in Petitions)
+        {
+            <PetitionItemTemplate Petition="item" OnDelete="HandleDeleteItem" />
+        }
+    }
+</div>
+
+@code {
+    private List<Petition>? Petitions { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Petitions = await Http.GetFromJsonAsync<List<Petition>>("Petition");
+    }
+
+    private async Task HandleDeleteItem(Petition? petition)
+    {
+        var response = await Http.DeleteAsync($"Petition/{petition?.Id}");
+
+        if (response.IsSuccessStatusCode)
+        {
+            if (petition != null) Petitions?.Remove(petition);
+        }
+        else
+        {
+            // Handle error...
+        }
+    }
+}

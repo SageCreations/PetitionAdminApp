@@ -8,35 +8,30 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\realq\\.nuget\\packages\\": {},
-    "C:\\Users\\realq\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/sage/.nuget/packages/": {},
+    "/Users/sage/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\realq\\RiderProjects\\PetitionAdminApp\\PetitionAdminApp.csproj",
+      "projectUniqueName": "/Users/sage/RiderProjects/PetitionAdminApp/PetitionAdminApp.csproj",
       "projectName": "PetitionAdminApp",
-      "projectPath": "C:\\Users\\realq\\RiderProjects\\PetitionAdminApp\\PetitionAdminApp.csproj",
-      "packagesPath": "C:\\Users\\realq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\realq\\RiderProjects\\PetitionAdminApp\\obj\\",
+      "projectPath": "/Users/sage/RiderProjects/PetitionAdminApp/PetitionAdminApp.csproj",
+      "packagesPath": "/Users/sage/.nuget/packages/",
+      "outputPath": "/Users/sage/RiderProjects/PetitionAdminApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Users\\realq\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "/Users/sage/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\realq\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Users\\realq\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/sage/.nuget/NuGet/NuGet.Config",
+        "/Users/sage/.nuget/NuGet/config/Godot.Offline.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -73,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }
