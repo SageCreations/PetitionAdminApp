@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DkgUXM7HJhJwsrmr5Lrm5VFsZuUfJUUq3FNqkhpCp6RoUzc5GCmOHyBYU1vBJxTdh1nrYWTZ7XAkzT1+IjMaJQ==",
+  "dgSpecHash": "Nnoyr8RRuDVbh7wcdpbxUkmMsHIpkxgH8quK9CfzYetqTrYADyIwbfIh8UT/LnONG93v3JtdZYGPzGwSC75Gtw==",
   "success": true,
-  "projectFilePath": "/Users/sage/RiderProjects/PetitionAdminApp/PetitionAdminApp.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\realq\\RiderProjects\\PetitionAdminApp\\PetitionAdminApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\realq\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-arm64\\7.0.5\\microsoft.netcore.app.runtime.linux-arm64.7.0.5.nupkg.sha512",
+    "C:\\Users\\realq\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-arm64\\7.0.5\\microsoft.aspnetcore.app.runtime.linux-arm64.7.0.5.nupkg.sha512",
+    "C:\\Users\\realq\\.nuget\\packages\\microsoft.netcore.app.host.linux-arm64\\7.0.5\\microsoft.netcore.app.host.linux-arm64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
