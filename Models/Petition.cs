@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace PetitionAdminApp.Models;
 
 public class Petition
@@ -26,4 +28,10 @@ public class Petition
     public string? Name { get; set; }
     public string? Description { get; set; }
     public DateTime EntryDate { get; set; }
+    
+    [NotMapped]
+    public bool IsChecked { get; set; }
+
+
+    
 }

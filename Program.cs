@@ -8,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.Configuration["ApiBaseUrl"] ?? throw new InvalidOperationException()) });
+//TODO: "http://localhost:5000/", remember to change this back in appsettings.json
+
 //builder.Services.AddSingleton<WeatherForecastService>();
 
 // Read URLs from configuration
